@@ -1,7 +1,7 @@
 ### Trackr- Project Manager
 
-
-
+![1738799164033](image/README/1738799164033.png)
+![1738799234322](image/README/1738799234322.png)
 
 ### Make sure to create a `.env` file with following variables -
 
