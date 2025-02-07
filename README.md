@@ -20,6 +20,7 @@
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
 4. [Quick Start](#quick-start)
+5. [Database](#Database)
 
 ## 🤖 Introduction
 
@@ -63,21 +64,24 @@ Clone the repository and navigate to the project directory:
 ```bash
 git clone https://github.com/Ayush110103/Trackr-Project_Manager.git
 cd Trackr-Project_Manager
-
+```
 Installation
 Install the project dependencies:
 
-bash
+```bash
 Copy
 npm install
 # or, if you use Yarn:
 # yarn install
+```
 Running the Project
 Start the development server:
 
-bash
-Copy
+```bash
 npm run dev
 # or, with Yarn:
 # yarn dev
 ```
+
+### Database Schema
+![1738912770919](image/README/1738912770919.png)
