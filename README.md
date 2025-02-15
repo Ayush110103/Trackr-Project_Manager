@@ -21,6 +21,8 @@
 3. [Features](#features)
 4. [Quick Start](#quick-start)
 5. [Database](#Database)
+6. [System Design](#System Design )
+7. [File Working](# File Working )
 
 ## 🤖 Introduction
 
@@ -55,8 +57,6 @@ Ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en/) (v14+ recommended)
 - [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-
-
 ### Cloning the Repository
 
 Clone the repository and navigate to the project directory:
@@ -65,6 +65,7 @@ Clone the repository and navigate to the project directory:
 git clone https://github.com/Ayush110103/Trackr-Project_Manager.git
 cd Trackr-Project_Manager
 ```
+
 Installation
 Install the project dependencies:
 
@@ -74,6 +75,7 @@ npm install
 # or, if you use Yarn:
 # yarn install
 ```
+
 Running the Project
 Start the development server:
 
@@ -84,4 +86,19 @@ npm run dev
 ```
 
 ### Database Schema
+
 ![1738912770919](image/README/1738912770919.png)
+
+### System Design 
+
+![1739653150900](image/README/1739653150900.png)
+
+![1739653174459](image/README/1739653174459.png)
+
+![1739653190461](image/README/1739653190461.png)
+
+![1739653202630](image/README/1739653202630.png)
+
+### File Working
+
+![1739652785161](image/README/1739652785161.png)![1739652796935](image/README/1739652796935.png)![1739652811174](image/README/1739652811174.png)![1739652845365](image/README/1739652845365.png)![1739652855230](image/README/1739652855230.png)
