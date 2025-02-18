@@ -1,16 +1,14 @@
 ### Trackr- Project Manager
 
 (Inspired by Jira)
-![1738799164033](image/README/1738799164033.png)
-![1738799234322](image/README/1738799234322.png)
 
-<div>
-  <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react&logoColor=61DAFB&color=000000" alt="React" />
-  <img src="https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logo=node-dot-js&logoColor=339933&color=000000" alt="Node.js" />
-  <img src="https://img.shields.io/badge/-Express-black?style=for-the-badge&logo=express&logoColor=000000&color=000000" alt="Express" />
-  <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb&logoColor=white&color=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4" alt="TailwindCSS" />
-</div>
+![1739850619647](image/README/1739850619647.png)
+
+![1739850654982](image/README/1739850654982.png)
+
+![1739850726315](image/README/1739850726315.png)
+
+
 
 <h3 align="center">Trackr – Project Manager</h3>
 
@@ -89,7 +87,7 @@ npm run dev
 
 ![1738912770919](image/README/1738912770919.png)
 
-### System Design 
+### System Design
 
 ![1739653150900](image/README/1739653150900.png)
 
