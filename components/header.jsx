@@ -7,7 +7,7 @@ import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import UserMenu from "./user-menu";
 import UserLoading from "./user-loading";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
-
+import "@/app/globals.css";
 function Header() {
   return (
     <header className="sticky top-0 z-50 bg-gradient-to-r from-black to-purple-900">
@@ -37,7 +37,7 @@ function Header() {
             </Link>
             <SignedOut>
               <SignInButton forceRedirectUrl="/onboarding">
-                <button className="button">
+                <button className="buttonx">
                   Login
                 </button>
               </SignInButton>
