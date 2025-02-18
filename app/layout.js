@@ -6,7 +6,9 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { shadesOfPurple } from "@clerk/themes";
 import "react-day-picker/dist/style.css";
 import { Toaster } from "sonner";
-
+import { ShootingStars } from "@/components/ui/shooting-stars";
+import { StarsBackground } from "@/components/ui/stars-background";
+import { BackgroundBeams } from "@/components/ui/background-beams"; // Ensure correct path
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -34,14 +36,16 @@ export default function RootLayout({ children }) {
       }}
     >
       <html lang="en">
-        <body className={`${inter.className} animated-dotted-background`}>
+        <body className={`${inter.className} relative`}>
+          {/* Render the BackgroundBeams component as the full-page background */}
+          <BackgroundBeams className="absolute inset-0 -z-10" />
           <ThemeProvider attribute="class" defaultTheme="dark">
             <Header />
             <main className="min-h-screen">{children}</main>
             <Toaster richColors />
-            <footer className="bg-gray-900 py-12">
+            <footer className="bg-gray-900 py-12 mt-16">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with ❤️ by Ayush</p>
+                <p className="mt-2">Made with ❤️ by Ayush</p>
               </div>
             </footer>
           </ThemeProvider>
