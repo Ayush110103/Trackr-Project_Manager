@@ -37,7 +37,7 @@ function Header() {
             </Link>
             <SignedOut>
               <SignInButton forceRedirectUrl="/onboarding">
-                <button className="rounded px-4 py-2 border border-slate-300 text-slate-300">
+                <button className="button">
                   Login
                 </button>
               </SignInButton>
