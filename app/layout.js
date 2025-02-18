@@ -37,8 +37,8 @@ export default function RootLayout({ children }) {
     >
       <html lang="en">
         <body className={`${inter.className} relative`}>
-          {/* Render the BackgroundBeams component as the full-page background */}
-          <BackgroundBeams className="absolute inset-0 -z-10" />
+          {/* Render glowing stars background */}
+          <StarsBackground className="absolute inset-0 -z-10" />
           <ThemeProvider attribute="class" defaultTheme="dark">
             <Header />
             <main className="min-h-screen">{children}</main>

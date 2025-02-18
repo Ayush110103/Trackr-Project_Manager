@@ -89,13 +89,12 @@ export default function Home() {
         {/* <BackgroundBeamsWithCollision className="absolute inset-0 -z-20" /> */}
         
        
-        <LampContainer className="absolute top-[-100px] left-1/2 transform -translate-x-1/2 z-[-10]" />
+        <LampContainer className="absolute top-[-195px] left-1/2 transform -translate-x-1/2 z-[-10]" />
     
     
         <div className="relative z-10">
-        <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold gradient-title pb-6 flex flex-col">
-            Organize your tasks
-
+        <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent pb-6 flex flex-col">
+  Organize your tasks
   <br />
   <span className="flex mx-auto gap-3 sm:gap-4 items-center">
     with Trackr
@@ -168,6 +167,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CTA Section */}
     {/* CTA Section */}
 <section className="relative py-20 text-center px-5">
   <BackgroundBeamsWithCollision className="absolute inset-0 -z-20" />
