@@ -1,7 +1,5 @@
 ### Trackr- Project Manager
 
-(Inspired by Jira)
-
 ![1739850619647](image/README/1739850619647.png)
 
 ![1739850654982](image/README/1739850654982.png)
