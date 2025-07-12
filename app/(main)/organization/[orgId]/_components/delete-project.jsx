@@ -31,7 +31,7 @@ export default function DeleteProject({ projectId }) {
     if (deleted) {
       router.refresh();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+   
   }, [deleted]);
 
   if (!isAdmin) return null;
